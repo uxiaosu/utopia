@@ -1,0 +1,8 @@
+[unstable]
+bindeps = true
+
+[build]
+target = "x86_64-pc-windows-msvc"
+
+[target.x86_64-pc-windows-msvc]
+runner = ["qemu-system-x86_64", "-drive", "format=raw,file={}", "-serial", "stdio"]

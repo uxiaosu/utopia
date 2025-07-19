@@ -1,0 +1,19 @@
+[package]
+name = "utopia_kernel"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "utopia_kernel"
+path = "src/main.rs"
+
+[dependencies]
+bootloader_api = { workspace = true }
+volatile = { workspace = true }
+spin = { workspace = true }
+uart_16550 = { workspace = true }
+x86_64 = { workspace = true }
+pc-keyboard = { workspace = true }
+pic8259 = { workspace = true }
+linked_list_allocator = { workspace = true }
+log = "0.4.21"

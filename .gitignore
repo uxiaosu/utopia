@@ -1,0 +1,57 @@
+# Rust
+/target/
+*.rlib
+*.rmeta
+*.d
+
+# Executables
+*.exe
+*.pdb
+*.dll
+*.exp
+*.lib
+
+# Bootloader and kernel images
+*.bin
+*.img
+*.iso
+bootimage-*
+
+# Debug files
+*.dSYM/
+*.dwarf
+
+# Installer
+qemu-w64-setup-20250422.exe
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Log files
+*.log
+serial.out
+qemu.log
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Rust analyzer cache
+.rust-analyzer/
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
